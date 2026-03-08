@@ -198,7 +198,7 @@ export default function OnboardingScreen({ navigation }) {
               ))}
               <View style={styles.permNote}>
                 <Text style={styles.permNoteText}>
-                  🔒 Permissions are only used within PaintScan. Change them anytime in Settings.
+                  🔒 Permissions are only used within Tintbase. Change them anytime in Settings.
                 </Text>
               </View>
             </>

@@ -51,7 +51,7 @@ export default function SignInScreen({ navigation }) {
           <View style={styles.logoRow}>
             <LogoMark size={32} borderRadius={9} />
             <Text style={styles.logoText}>
-              Paint<Text style={styles.logoAccent}>Scan</Text>
+              Tint<Text style={styles.logoAccent}>base</Text>
             </Text>
           </View>
 

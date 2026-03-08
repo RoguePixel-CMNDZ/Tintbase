@@ -27,7 +27,7 @@ export default function App() {
   if (!fontsLoaded) {
     return (
       <View style={{ flex: 1, backgroundColor: '#0A0B0D', alignItems: 'center', justifyContent: 'center' }}>
-        <Text style={{ color: '#E8C547', fontSize: 24, letterSpacing: 2 }}>PAINTSCAN</Text>
+        <Text style={{ color: '#E8C547', fontSize: 24, letterSpacing: 2 }}>TINTBASE</Text>
       </View>
     );
   }

@@ -1,4 +1,4 @@
-# PaintScan Pro
+# Tintbase
 
 QR-powered paint color intelligence for commercial painters.
 
@@ -12,7 +12,7 @@ QR-powered paint color intelligence for commercial painters.
 ### Install & Run
 
 ```bash
-cd PaintScanPro
+cd Tintbase
 npm install
 npx expo start
 ```
@@ -24,7 +24,7 @@ Then scan the QR code with Expo Go on your phone.
 ## Project Structure
 
 ```
-PaintScanPro/
+Tintbase/
 ├── App.js                          # Root — font loading + providers
 ├── app.json                        # Expo config
 ├── package.json
@@ -151,4 +151,4 @@ Configure `eas.json` with your Apple Team ID and Android keystore before buildin
 
 ---
 
-*PaintScan Pro — Built with BuildFlow*
+*Tintbase — Built with BuildFlow*
