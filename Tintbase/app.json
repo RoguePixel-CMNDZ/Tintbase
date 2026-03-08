@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "PaintScan Pro",
+    "slug": "paintscanpro",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#0A0B0D"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.paintscanpro.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "PaintScan Pro uses your camera to scan QR codes on job sites.",
+        "NSLocationWhenInUseUsageDescription": "Your location helps tag scans to the correct building zone."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0A0B0D"
+      },
+      "package": "com.paintscanpro.app",
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ]
+    },
+    "plugins": [
+      "expo-camera",
+      "expo-barcode-scanner"
+    ]
+  }
+}
